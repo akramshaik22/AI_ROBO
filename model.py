@@ -6,7 +6,7 @@ import cv2
 import urllib.request
 import numpy as np
 import subprocess
-
+#asdlkfjsdklfjasiklfj
 a = subprocess.run('arp -a', capture_output=True, text=True)
 out = a.stdout.split()
 url = 'http://'+out[out.index('e8-db-84-94-61-c0')-1]+'/'
